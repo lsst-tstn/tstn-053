@@ -17,7 +17,19 @@ name.given = "Brian J."
 name.family = "Brondel"
 internal_id = "brondelbj"
 orcid = "https://orcid.org/0009-0005-3510-6248"
+
 [[technote.authors.affiliations]]
 name = "Vera C. Rubin Observatory/NSF NOIRLab"
 internal_id = "RubinOpsC"
 address = "Casilla 603, La Serena, Chile"
+
+[[technote.authors]]
+name.given="Fritz"
+name.family="Mueller"
+internal_id = "muellerf"
+ocrid = "https://orcid.org/0000-0002-7061-4644"
+
+[[technote.authors.affiliations]]
+name = "SLAC National Accelerator Laboratory"
+internal_id = "SLAC"
+address = "2575 Sand Hill Rd., Menlo Park, CA 94025, USA"

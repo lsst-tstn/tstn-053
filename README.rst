@@ -19,7 +19,7 @@ actuators with integrated open and closed limit switches. Electrical control is 
 circuits wired in parallel with existing manual switches, enabling both automated and local operation.
 
 A Raspberry Pi 4B equipped with a Sequent Microsystems industrial control HAT serves as the controller,
-providing 24 VDC digital I/O for actuator control and limit switch monitoring. Control logic and state
+providing 24 VDC digital I/O for actuator control and limit switch monitoring. Control logic and state
 reporting are handled in software on the Pi, with Modbus used for integrated fan control.
 
 This technical note describes the mechanical layout, electrical and wiring design, control software

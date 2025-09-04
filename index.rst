@@ -1,10 +1,16 @@
+.. TODO: Delete the note below before merging new content to the main branch.
+
+.. note::
+
+   **This technote is a work-in-progress.**
+
 #########################
 Auxiliary Telescope Vents
 #########################
 
 .. abstract::
 
-   The Vera C. Rubin Auxiliary Telescope (AuxTel) dome vent system is designed to regulate airflow within the
+The Vera C. Rubin Auxiliary Telescope (AuxTel) dome vent system is designed to regulate airflow within the
 dome environment, reducing thermal gradients and supporting stable observing conditions. A system has been
 designed and constructed to provide automated control and telemetry for the dome vents.
 
@@ -13,7 +19,7 @@ actuators with integrated open and closed limit switches. Electrical control is 
 circuits wired in parallel with existing manual switches, enabling both automated and local operation.
 
 A Raspberry Pi 4B equipped with a Sequent Microsystems industrial control HAT serves as the controller,
-providing 24 VDC digital I/O for actuator control and limit switch monitoring. Control logic and state
+providing 24 VDC digital I/O for actuator control and limit switch monitoring. Control logic and state
 reporting are handled in software on the Pi, with Modbus used for integrated fan control.
 
 This technical note describes the mechanical layout, electrical and wiring design, control software
@@ -21,7 +27,8 @@ architecture, and the integration of the system into the Rubin Observatory Contr
 Communication is mediated by a CSC (Component Software Controller) implemented with the Service Abstraction
 Layer (SAL), supporting telemetry, scripted control, and future system expansion.
 
-Add content here
-================
+.. include:: mechanical.rst
 
-See the `Documenteer documentation <https://documenteer.lsst.io/technotes/index.html>`_ for tips on how to write and configure your new technote.
+.. include:: wiring.rst
+
+.. include:: software.rst
